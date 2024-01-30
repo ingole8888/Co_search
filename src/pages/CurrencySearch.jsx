@@ -1,7 +1,6 @@
-// CurrencySearch.js
 import React, { useState } from 'react';
 import axios from 'axios';
-import './CurrencySearch.css'; // Import the CSS file for styling
+import './CurrencySearch.css'; 
 
 const CurrencySearch = () => {
   const [currencyCode, setCurrencyCode] = useState('');
